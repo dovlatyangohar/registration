@@ -9,7 +9,7 @@
                     if($key == $_POST["email"] && $value == $_POST["psw"]){
                         $_SESSION["email"] = $key;
                         $_SESSION["psw"] = $value;
-                        header("Location: http://localhost/regform/profile.php");
+                        header("Location: https://nameless-tundra-21351.herokuapp.com/profile.php");
                     }
                 }
             }

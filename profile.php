@@ -1,7 +1,7 @@
 <?php 
   session_start();
   if (!isset($_SESSION["email"]) && !isset($_SESSION["psw"])) {
-    header("Location: http://localhost/regform/login.php");
+    header("Location: https://nameless-tundra-21351.herokuapp.com/login.php");
   }
 ?>
 

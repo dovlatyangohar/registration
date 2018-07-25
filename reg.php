@@ -26,7 +26,7 @@ if ($_SERVER['REQUEST_METHOD'] == "POST") {
         $usersList[] = array($_POST["email"] => $_POST["psw"]);
         file_put_contents('users.json', json_encode($usersList));
         unset($usersList);
-        header("Location: http://localhost/regform/login.php");
+        header("Location: https://nameless-tundra-21351.herokuapp.com/login.php");
         exit;
         }
     }
