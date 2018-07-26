@@ -10,6 +10,7 @@
                         $_SESSION["email"] = $key;
                         $_SESSION["psw"] = $value;
                         header("Location: https://nameless-tundra-21351.herokuapp.com/profile.php");
+                        exit;
                     }
                 }
             }
